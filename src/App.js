@@ -1,10 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+import CustomHeader from './components/CustomHeader';
+import CustomTitle from './components/title';
+
+const MainContainer = styled.div`
+  padding: 2rem;
+  background-color: #12154c;
+`;
+
+const ContentContainer = styled.div`
+  z-index: 5;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <MainContainer>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,8 +29,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
+      </header> */}
+      <CustomHeader/>
+      <ContentContainer>
+        <CustomTitle/>
+        <img style={{position: 'absolute', zIndex: 0, left:0, width: '98vw', bottom: 0}} src="./flames.png"/>
+      </ContentContainer>
+    </MainContainer>
   );
 }
 
