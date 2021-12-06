@@ -95,8 +95,9 @@ const CustomTitle = () => {
             </ImageContainer>
             <ImageContainer>
             <iframe width="520" height="415"
-                src="https://www.youtube.com/embed/p8uT9y4cPwY">
+                src="https://streamable.com/e/2cmoar?autoplay=1&loop=0">
             </iframe>
+        
             </ImageContainer>
         </Wrapper>
     );
