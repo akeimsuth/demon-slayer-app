@@ -7,6 +7,9 @@ import CustomTitle from './components/title';
 const MainContainer = styled.div`
   padding: 2rem;
   background-color: #12154c;
+  background-image: url('./flames.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
 `;
 
 const ContentContainer = styled.div`
@@ -33,8 +36,9 @@ function App() {
       <CustomHeader/>
       <ContentContainer>
         <CustomTitle/>
-        <img style={{position: 'absolute', zIndex: 0, left:0, width: '98vw', bottom: 0}} src="./flames.png"/>
+        
       </ContentContainer>
+      {/* <img style={{position: 'absolute', zIndex: 0, left:0, width: '98vw', bottom: 0}} src="./flames.png"/> */}
     </MainContainer>
   );
 }

@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
     display: flex;
+    flex-wrap: wrap;
     padding-top: 2rem;
     z-index: 5;
     position: relative;
@@ -28,17 +29,25 @@ const Container = styled.div`
         letter-spacing: 6px;
     }
     .text{
-        width: 500px;
+        width: 400px;
     }
 `;
 
 const ImageContainer = styled.div`
-    width: 500px;
+    width: 300px;
     height: 500px;
     img{
         object-fit: contain;
         height: 100%;
         width: 100%;
+    }
+`;
+
+const VideoContainer = styled.div`
+    width: 300px;
+    height: 500px;
+    @media (max-width: 800px){
+        display: none;
     }
 `;
 
@@ -93,12 +102,12 @@ const CustomTitle = () => {
             <ImageContainer>
                 <img src="./Kyojuro_anime.png"/>
             </ImageContainer>
-            <ImageContainer>
-            <iframe width="520" height="415"
+            <VideoContainer>
+            <iframe width="420" height="415"
                 src="https://streamable.com/e/2cmoar?autoplay=1&loop=0">
             </iframe>
         
-            </ImageContainer>
+            </VideoContainer>
         </Wrapper>
     );
 }
