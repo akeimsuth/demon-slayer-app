@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.86ccd74d.chunk.css",
-    "main.js": "/static/js/main.0a0491eb.chunk.js",
-    "main.js.map": "/static/js/main.0a0491eb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8df49b3e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8df49b3e.js.map",
-    "static/js/2.0376b854.chunk.js": "/static/js/2.0376b854.chunk.js",
-    "static/js/2.0376b854.chunk.js.map": "/static/js/2.0376b854.chunk.js.map",
-    "static/js/3.26f499b0.chunk.js": "/static/js/3.26f499b0.chunk.js",
-    "static/js/3.26f499b0.chunk.js.map": "/static/js/3.26f499b0.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.86ccd74d.chunk.css.map": "/static/css/main.86ccd74d.chunk.css.map",
-    "static/js/2.0376b854.chunk.js.LICENSE.txt": "/static/js/2.0376b854.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/demon-slayer-app/static/css/main.86ccd74d.chunk.css",
+    "main.js": "/demon-slayer-app/static/js/main.143008a9.chunk.js",
+    "main.js.map": "/demon-slayer-app/static/js/main.143008a9.chunk.js.map",
+    "runtime-main.js": "/demon-slayer-app/static/js/runtime-main.f2d30041.js",
+    "runtime-main.js.map": "/demon-slayer-app/static/js/runtime-main.f2d30041.js.map",
+    "static/js/2.e528b063.chunk.js": "/demon-slayer-app/static/js/2.e528b063.chunk.js",
+    "static/js/2.e528b063.chunk.js.map": "/demon-slayer-app/static/js/2.e528b063.chunk.js.map",
+    "static/js/3.26f499b0.chunk.js": "/demon-slayer-app/static/js/3.26f499b0.chunk.js",
+    "static/js/3.26f499b0.chunk.js.map": "/demon-slayer-app/static/js/3.26f499b0.chunk.js.map",
+    "index.html": "/demon-slayer-app/index.html",
+    "static/css/main.86ccd74d.chunk.css.map": "/demon-slayer-app/static/css/main.86ccd74d.chunk.css.map",
+    "static/js/2.e528b063.chunk.js.LICENSE.txt": "/demon-slayer-app/static/js/2.e528b063.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/demon-slayer-app/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8df49b3e.js",
-    "static/js/2.0376b854.chunk.js",
+    "static/js/runtime-main.f2d30041.js",
+    "static/js/2.e528b063.chunk.js",
     "static/css/main.86ccd74d.chunk.css",
-    "static/js/main.0a0491eb.chunk.js"
+    "static/js/main.143008a9.chunk.js"
   ]
 }
